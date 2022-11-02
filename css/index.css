@@ -1,0 +1,282 @@
+.main {
+    width: 980px;
+    height: 455px;
+    margin-left: 220px;
+    margin-top: 10px;
+}
+
+.main .focus {
+    float: left;
+    width: 721px;
+    height: 455px;
+    background-color: purple;
+}
+
+.main .newflash {
+    float: right;
+    width: 250px;
+    height: 455px;
+}
+
+.newflash .news {
+    height: 165px;
+    border: 1px solid #e4e4e4;
+}
+
+.newflash .lifeservice {
+    height: 209px;
+    border-left: 1px solid #e4e4e4;
+
+}
+
+.newflash .bargain {
+    height: 75px;
+    margin-top: 5px;
+}
+
+.news_hd {
+    height: 33px;
+    border-bottom: 1px dotted #e4e4e4;
+    padding: 0 15px;
+    line-height: 33px;
+}
+
+.news_hd h5 {
+    float: left;
+    font-size: 14px;
+}
+
+.news_hd .more {
+    float: right;
+}
+
+.news_hd .more::after {
+    font-family: 'iconfont';
+    content: "\e666";
+    padding-left: 4px;
+}
+
+.news_bd {
+    padding: 5px 15px 0;
+}
+
+.news_bd ul li {
+    height: 24px;
+    line-height: 24px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.lifeservice ul li {
+    position: relative;
+    float: left;
+    width: 25%;
+    height: 70px;
+    border-right: 1px solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e4;
+    text-align: center;
+}
+
+.lifeservice ul li a i {
+    display: inline-block;
+    width: 24px;
+    height: 28px;
+    margin-top: 12px;
+    background: url(../images/icons.png) no-repeat -16px -15px;
+}
+
+.lifeservice ul li .jian {
+    position: absolute;
+    top: -3px;
+    left: 50px;
+}
+
+/* 推荐模块 */
+.recom {
+    height: 163px;
+    /* background-color: pink; */
+    margin-top: 12px;
+}
+
+.recom_hd {
+    float: left;
+    height: 163px;
+    width: 204px;
+    background: url(../images/jrtj.png);
+}
+
+.recom_bd {
+    float: left;
+}
+
+.recom_bd ul li {
+    position: relative;
+    float: left;
+}
+
+.recom_bd ul li img {
+    width: 249px;
+    height: 163px;
+}
+
+.recom_bd ul li::after {
+    content: '';
+    position: absolute;
+    top: 10px;
+    right: 0;
+    width: 1px;
+    height: 145px;
+    background-color: #ddd;
+}
+
+/* 猜你喜欢模块 */
+.like {
+    margin-top: 30px;
+    height: 260px;
+
+}
+
+.like .hd {
+    height: 28px;
+}
+
+.like .hd .wb {
+    float: left;
+    height: 28px;
+    font-size: 18px;
+}
+
+.like .hd .change {
+    float: right;
+    height: 28px;
+    line-height: 28px;
+}
+
+.like .hd .change::after {
+    font-family: 'iconfont';
+    content: "\e601";
+    font-size: 16px;
+    padding: 0 20px 0 8px;
+}
+
+.like .bd {
+    height: 232px;
+    border: 1px solid #ededed;
+}
+
+.like .bd ul li {
+    display: inline-block;
+    width: 196px;
+    height: 232px;
+}
+
+.like .bd ul li .tp {
+    position: relative;
+    height: 160px;
+
+}
+
+.like .bd ul li .tp img {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+}
+
+.like .bd ul li .jg {
+    height: 60px;
+    border-right: 1px solid #ededed;
+}
+
+.like .bd ul li #last {
+    border-right: none;
+}
+
+.like .bd ul li .jg p {
+    padding-left: 36px;
+    font-size: 12px;
+}
+
+.like .bd ul li .jg h4 {
+    padding-left: 36px;
+    font-size: 14px;
+    color: #df3033;
+}
+
+/* 家用电器模块 */
+.box_hd {
+    height: 30px;
+    border-bottom: 2px solid #c81623;
+}
+
+.box_hd h3 {
+    float: left;
+    font-size: 18px;
+    color: #c81623;
+    font-weight: 400;
+}
+
+.box_hd .tab_list {
+    float: right;
+    line-height: 30px;
+}
+
+.box_hd .tab_list ul li {
+    float: left;
+}
+
+.box_hd .tab_list ul li a {
+    margin: 0 15px;
+}
+
+.floor .w {
+    margin-top: 30px;
+}
+
+.box_bd {
+    height: 361px;
+}
+
+.tab_list_item>div {
+    float: left;
+}
+
+.col_210 {
+    width: 210px;
+    height: 361px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.col_210 ul li {
+    float: left;
+    width: 85px;
+    height: 34px;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+    line-height: 34px;
+    margin-right: 10px;
+}
+
+.col_210 ul {
+    margin-left: 12px;
+
+}
+
+.col_329 {
+    width: 329px;
+}
+
+.col_221 {
+    width: 221px;
+    border-right: 1px solid #ededed;
+}
+
+.col_219 {
+    width: 219px;
+}
+
+.bb {
+    display: block;
+    border-bottom: 1px solid #ededed;
+}
